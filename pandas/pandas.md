@@ -97,18 +97,11 @@ df["類別"].value_counts(dropna=False)
 
 ## [小專題：全臺大專院校科系資料探索](./pandas_src/全臺大專院校科系資料探索.ipynb)
 
-## [排序]()
+## [排序](./pandas_src/排序.ipynb)
 
-- [範例：sort_values()：按照欄位內容排序](<./pandas_src/sort_values()：按照欄位內容排序.py>)
-  - by：按照哪個欄位排序
-  - ascending=True：由小到大
-  - ascending=False：由大到小
-- [範例：多欄位排序](./pandas_src/多欄位排序.py)
-  - 實際資料分析很少只有一個排序規則。例如先按照「狀態」排序，如果狀態相同，再按照「實付金額」由高到低排序。
-- [範例：nlargest()：找最大的前幾筆](<./pandas_src/nlargest()：找最大的前幾筆.py>)
-- [範例：nsmallest()：找最小的前幾筆](<./pandas_src/nsmallest()：找最小的前幾筆.py>)
+## [分組](./pandas_src/分組.ipynb)
 
-## groupby：先分組，再計算
+groupby：先分組，再計算
 
 前面學過 sum()、mean()、count()，這些方法可以直接計算整份資料。例如：
 
@@ -118,24 +111,13 @@ df["金額"].sum() # 計算所有交易的總金額
 
 但實際分析時，我們通常不只想知道「全部花了多少錢？」，更常遇到的是「餐飲花多少？交通花多少？娛樂又花多少？」
 
-`groupby` 可用班級生活比喻：先依組別把同學分桌，再計算每桌人數或平均成績。
-
 groupby() 的概念其實很生活化。假設老師要計算每組學生的平均成績，可以先按照「組別」把學生分桌，再分別計算每桌的平均分數。
+
+用班級生活比喻：`groupby`先依組別把同學分桌，再計算每桌人數或平均成績。
 
 - [範例：基本groupby()](<./pandas_src/基本groupby().py>)
 
-### 常見的分組統計
-
-- 範例：sum()：每組總和
-- [範例：mean()：每組平均](<./pandas_src/mean()：每組平均.py>)
-- [範例：max()：每組最大值](<./pandas_src/max()：每組最大值.py>)
-- [範例：min()：每組最小值](<./pandas_src/min()：每組最小值.py>)
-- [範例：size()：每組有幾筆資料](<./pandas_src/size()：每組有幾筆資料.py>)
-  - size()計算「每組有幾列」，會計算缺失值。
-- [範例：count()：計算非缺失值數量](<./pandas_src/count()：計算非缺失值數量.py>)
-  - count()計算「指定欄位有幾個非缺失值」，不會計算缺失值。
-- [範例：agg()：一次計算多個統計結果](<./pandas_src/agg()：一次計算多個統計結果.py>)
-- [範例：agg()：自己命名統計欄位](<./pandas_src/agg()：自己命名統計欄位.py>)
+## 從這裡開始
 
 ### [as_index=False](./pandas_src/as_index=False.py)
 
