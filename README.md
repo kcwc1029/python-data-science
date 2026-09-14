@@ -1,1 +1,2 @@
 - [pandas](./pandas/pandas.md)
+- [NumPy：從陣列到高效數值運算](./numpy/numpy.md)
