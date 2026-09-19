@@ -1,0 +1,15 @@
+{
+  "notebook_code_cells": 37,
+  "figures": 36,
+  "standalone_examples": 36,
+  "csv_files": 16,
+  "notebook_warnings": [],
+  "standalone_stderr": [],
+  "data_checks": "passed",
+  "local_links": "passed",
+  "versions": {
+    "matplotlib": "3.11.2",
+    "sns": "0.13.2",
+    "pd": "3.0.5"
+  }
+}

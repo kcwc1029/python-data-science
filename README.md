@@ -1,1 +1,3 @@
 - [pandas](./pandas/pandas.md)
+- [NumPy](./numpy/numpy.ipynb)
+- [Data Visualization](./Data_Visualization/Data_Visualization.md)
