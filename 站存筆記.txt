@@ -1,11 +1,10 @@
-## 更新教材到網站
-cd D:\github\web-mkdocs\mydocs
-啟動虛擬環境(web-mkdocs)
-git push
-mkdocs gh-deploy
+```
+🔵 Problem. 幫品牌建立風格設定
+🔴 重要點
+🟢 Example. 品牌風格範例
+🟡 Tip. 提示詞撰寫技巧
+```
 
-## 網站本地瀏覽
-mkdocs serve
 
 ## 放圖片
 ```html=
@@ -22,12 +21,6 @@ mkdocs serve
 </div>
 ```
 
-```
-🔵 Problem. 幫品牌建立風格設定
-🔴 重要點
-🟢 Example. 品牌風格範例
-🟡 Tip. 提示詞撰寫技巧
-```
 
 ```html=
 <!-- 三張 -->
